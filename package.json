@@ -1,0 +1,19 @@
+{
+  "name": "squire-example",
+  "version": "1.0.0",
+  "private": true,
+  "main": "dist/bundle.cjs.js",
+  "module": "dist/bundle.esm.js",
+  "browser": "dist/bundle.umd.js",
+  "dependencies": {
+    "squire-rte": "^1.9.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.5",
+    "rollup": "^2.58.0"
+  },
+  "scripts": {
+    "build": "rollup --config"
+  }
+}
